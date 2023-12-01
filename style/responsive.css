@@ -1,0 +1,361 @@
+/*@media only screen and (max-width: 500px) {*/
+/*    .header{*/
+/*        display: none;*/
+/*    }*/
+/*}*/
+@media (max-width: 1294px){
+    .nav {
+        flex-direction: column; /* CSS rules for .header within the specified screen width range */
+    }
+}
+@media (min-width: 780px) and (max-width: 1190px) {
+    .header-content .menu{
+        margin: 0 20px;
+    }
+    .header-title h1{
+        font-size: 43px;
+    }
+    .card-item-bottom,.card-item-top{
+        width: 43%;
+    }
+    .even-news-content h3{
+        line-height: 1.4;
+        margin: 8px 30px;
+    }
+    .even-news-content p,.even-news-content .time{
+        margin: -8px  30px  ;
+        font-size: 16px
+    }
+    .even-news-content .time{
+        margin: 28px 30px;
+    }
+    .education-main-content p{
+        font-size: 16px
+    }
+    .experience-image{
+        margin:50px 50px ;
+    }
+    .image-library{
+        margin-top: 0;
+
+    }
+    .experience-main{
+        flex-direction: column;
+        height: 1200px;
+    }
+    .experience-detail.one{
+        width: 100%;
+        max-height: max-content;
+    }
+    .new-page1.three{
+        position: static;
+    }
+    .experience-text .time-icon{
+        margin-top: -30px;
+    }
+    .footer-address{
+        margin-left: 50px;
+    }
+    .footer-contact p {
+        margin: 10px 10px;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .menu-mobile,.input,.list-mobile{
+        display: block;
+    }
+    .menu{
+        display: none;
+
+    }
+    .menu:hover{
+        cursor: pointer;
+
+    }
+    .menu-mobile{
+        position: absolute;
+        top:120px;
+        padding-left: 40px;
+        font-size: xx-large;
+        color: #fff;
+    }
+    .input{
+        position: absolute;
+        top:120px;
+        left: 85px;
+    }
+    .input {
+        width: 76%; /* Đặt độ rộng của ô input */
+        margin-bottom: 10px; /* Đặt khoảng cách dưới của ô input */
+    /*margin-right: 20px;*/
+    }
+
+    .input input[type="text"] {
+        width: 100%; /* Đặt độ rộng của input bên trong ô input là 100% để điền đầy ô */
+        padding: 10px; /* Đặt khoảng cách giữa nội dung và viền của input */
+        border: 1px solid #ccc; /* Đặt viền cho input */
+        border-radius: 5px; /* Đặt góc bo tròn cho input */
+    }
+    .input input[type="text"]:focus {
+        outline: none; /* Loại bỏ viền xung quanh input khi focus */
+        border-color: transparent; /* Đặt màu viền của input là trong suốt */
+    }
+    .list-mobile {
+        position: absolute;
+        width: 97%;
+        height: 110px;
+        background-color: #ffffff;
+        top: 160px;
+        border-radius: 5px;
+        margin: 5px 10px;
+        display: none;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .list-mobile a{
+        margin: 10px 20px;
+        font-size: 14px;
+        color: #008000;
+        font-weight: 700;
+        cursor: pointer;
+        position: relative;
+        transition: all 0.5s ease;
+        transition-delay: 0.2s;
+    }
+    .list-mobile a:hover{
+        font-size: 16px;
+        border-bottom: 3px solid #ffffff;
+    }
+    .header-title h1{
+        font-size: 30px;
+    }
+    .header-title{
+        top:300px;
+    }
+    .fas.fa-bars:hover{
+        cursor: pointer;
+    }
+    .card{
+        justify-content: center;
+    }
+    .card-item-bottom, .card-item-top{
+        width: 360px;
+       margin: 30px -30px;
+    }
+    .list-mobile a span {
+        pointer-events: none;
+    }
+    .new-event{
+        text-align: center;
+    }
+    .new-event p{
+        font-size: 16px;
+    }
+    .event-content {
+        flex-direction: column;
+        height: 800px;
+    }
+    .event-content-image{
+        width: 100%;
+        height: 500px;
+        border-radius: 20px;
+    }
+    .event-content-image img{
+        border-radius: 20px;
+    }
+    .even-news-content{
+        margin-top: 30px;
+        width: 100%;
+        height: max-content;
+        border-radius: 20px;
+    }
+    .education-header{
+        text-align:center;
+    }
+    .education-header p{
+        font-size: 16px;
+    }
+    .education-main{
+        flex-direction: column;
+        height: auto;
+    }
+    .education-main-content {
+        width: 100%;
+        height: max-content;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+    .education-main-image{
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+    .research-head{
+        text-align: center;
+        width: 100%;
+        left: 0;
+        top: 255px;
+    }
+    .research-head h1{
+        font-size: 35px
+    }
+    .research-head p{
+        text-align: center;
+        margin: 0;
+    }
+    .research{
+        height: 1300px;
+    }
+    .research-detail{
+        right: 0;
+        left: 0;
+        flex-direction: column;
+        height: auto;
+
+    }
+    .research-detail-one{
+        width: 80%;
+        height: 480px;
+        border-radius: 20px 50px ;
+        align-items: center;
+        margin: 0 50px 30px;
+        box-sizing: border-box;
+
+    }
+    .cooperate{
+    flex-direction: column;
+    height: 850px;
+        position: static;
+    }
+    .cooperate-left{
+        width: 100%;
+        height: 600px;
+        position: static;
+        text-align: center;
+    }
+    .cooperate-left-title{
+        text-align: center;
+        margin-left: 0;
+    }
+    .cooperate-right{
+        width: 100%;
+        height: 200px ;
+        position: relative;
+    }
+    .cooperate-left-title p{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .cooperate-img{
+        height: 550px;
+    }
+    .cooperate-text{
+        bottom:-13px
+    }
+    .cooperate-text h3{
+        text-align: center;
+    }
+    .experience-image{
+    margin: 30px;
+        text-align: center;
+    }
+    .experience-image h1{
+        font-size: 35px;
+    }
+    .experience-image p{
+        margin: 0 20px;
+        text-align: center;
+        line-height: 1.4;
+    }
+    .experience-main{
+        flex-direction: column;
+        height: 1400px;
+    }
+    .experience-detail.one{
+        width: 100%;
+        height: 30%;
+    }
+    .new-page1.three{
+        position: static;
+    }
+    .experience-text .time-icon{
+        margin-top: -30px;
+    }
+    .new-event.experience{
+        margin-bottom: 0;
+    }
+    .experience-text{
+        text-align: start;
+    }
+    .experience-text p{
+        margin: 10px 0;
+        padding: 0 30px ;
+        text-align: start;
+    }
+    .image-library{
+        margin-top: 50px;
+    }
+    .experience-image p{
+        font-size: 17px;
+    }
+    .image-card .image-1,
+    .image-card .image-2,
+    .image-card .image-3,
+    .image-card .image-4,
+    .image-card .image-5 {
+        width: 100%;
+        margin: 10px 0;
+        border-radius: 40px;
+
+    }
+    .image-card .image-1 img,
+    .image-card .image-2 img,
+    .image-card .image-3 img,
+    .image-card .image-4 img,
+    .image-card .image-5 img{
+        width: 100%;
+        margin: 10px 0;
+        border-radius: 40px;
+
+    }
+    .photo-more{
+        margin: 10px 0 80px;
+    }
+    .footer-logo{
+        width: 75px;
+        height: 75px;
+    }
+    .footer-logo img{
+        width: 75px;
+        height: 75px;
+    }
+    .footer-logo{
+        margin-right: 20px;
+    }
+    .footer-title{
+        font-size: 18px;
+    }
+    .footer-contact{
+        flex-wrap: wrap;
+        margin-top: 400px ;
+        height: 300px;
+    }
+    .footer-address{
+        width: 100%;
+        margin-left: 0;
+        height: 50%;
+        margin-bottom: 30px;
+    }
+    .footer-action-one,.footer-action-two{
+        width: 50%;
+    }
+    .footer-contact p {
+        margin: 10px 30px;
+        font-size: 17px;
+    }
+    .footer-bottom{
+        font-size: 15px;
+    }
+}
+

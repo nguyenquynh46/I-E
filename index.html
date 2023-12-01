@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
 </head>
 <body>
 <!--header-->
@@ -73,33 +74,66 @@
             <div class="main-menu">
                 <ul class="menu-list">
                     <li>
-                        <a href="#">GIỚI THIỆU</a>
+                        <a href="#"><span>GIỚI THIỆU</span></a>
                     </li>
                     <li>
-                        <a href="#">TIN TỨC - SỰ KIỆN</a>
+                        <a href="#"><span>TIN TỨC - SỰ KIỆN</span></a>
                     </li>
                     <li>
-                        <a href="#">ĐÀO TẠO</a>
+                        <a href="#"><span>ĐÀO TẠO</span></a>
                     </li>
                     <li>
-                        <a href="#">NGHIÊN CỨU KHOA HỌC</a>
+                        <a href="#"><span>NGHIÊN CỨU KHOA HỌC</span></a>
                     </li>
                     <li>
-                        <a href="#">HỢP TÁC</a>
+                        <a href="#"><span>HỢP TÁC</span></a>
                     </li>
-                    <li><a href="#">CHIA SẺ - TRẢI NGHIỆM</a>
+                    <li><a href="#"><span>CHIA SẺ - TRẢI NGHIỆM</span></a>
                     </li>
                     <li>
-                        <a href="#">THƯ VIỆN ẢNH</a>
+                        <a href="#"><span>THƯ VIỆN ẢNH</span></a>
                     </li>
                 </ul>
             </div>
+
             <div class="search">
                 <i class="fas fa-search"></i>
             </div>
+
         </div>
+
         </div>
     </div>
+    <div class="menu-mobile">
+        <i class="fas fa-bars" onclick="openMenu()"></i>
+
+    </div>
+    <div class="input">
+        <input type="text">
+    </div>
+    <div class="list-mobile">
+
+
+                <a href="#">GIỚI THIỆU</a>
+
+
+                <a href="#">TIN TỨC - SỰ KIỆN</a>
+
+
+                <a href="#">ĐÀO TẠO</a>
+
+
+                <a href="#">NGHIÊN CỨU KHOA HỌC</a>
+
+
+                <a href="#">HỢP TÁC</a>
+        <a href="">CHIA SẺ - TRẢI NGHIỆM</a>
+        <a href="">THƯ VIỆN ẢNH</a>
+
+
+    </div>
+
+
     <div class="header-title">
         <h1>Benvenuto Nel Dipartimento Italia!</h1>
         <p>L'"unico luogo di formazione della lingua italiana al Nord</p>
@@ -165,7 +199,7 @@
             <div class="time">
                 <div class="time-icon">
                     <i class="far fa-clock"><strong>21/10/2021</strong> </i>
-                    <span><a href="">Xem thêm</a></span>
+                    <a href="">Xem thêm</a>
                 </div>
             </div>
         </div>
@@ -214,7 +248,7 @@
         <p>Hoạt động Nghiên cứu Khoa học cho Giảng viên và Sinh viên</p>
     </div>
     <div class="research-detail">
-        <div class="research-detail-one">
+        <div class="research-detail-one one">
             <div class="research-detail-image">
                 <img src="asset/image/24.png" alt="">
             </div>
@@ -239,12 +273,16 @@
          <h1>HỢP TÁC</h1>
          <p>Hoạt động hợp tác trong và ngoài nước của Khoa Tiếng Italia</p>
       </div>
-        <div class="image-left">
-            <img   src="asset/image/11.png" alt="">
+        <div class="cooperate-img">
+            <div class="image-left">
+                <img   src="asset/image/11.png" alt="">
+            </div>
+            <div class="image-right">
+                <img   src="asset/image/16.png" alt="">
+            </div>
         </div>
-        <div class="image-right">
-            <img   src="asset/image/16.png" alt="">
-        </div>
+
+
     </div>
     <div class="cooperate-right">
         <div class="background">
@@ -261,20 +299,22 @@
         <div class="time">
             <div class="time-icon">
                 <i class="far fa-clock"><strong>21/10/2021</strong> </i>
-                <span><a href="">Xem thêm</a></span>
+                <a href="">Xem thêm</a>
             </div>
         </div>
-        <div class="new-page1 three">
-            <i class="fas fa-long-arrow-alt-left fa-news-left "></i>
-            <i class="fas fa-long-arrow-alt-right fa-news-right"></i>
-        </div>
+
         </div>
     </div>
+
+</div>
+<div class="new-page1 two">
+    <i class="fas fa-long-arrow-alt-left fa-news-left "></i>
+    <i class="fas fa-long-arrow-alt-right fa-news-right"></i>
 </div>
 <!--experience and photos-->
 <div class="experience-image">
     <div class="experience">
-        <div class="new-event">
+        <div class="new-event experience">
             <h1>CHIA SẺ - TRẢI NGHIỆM</h1>
             <p>Góc chia sẻ về những trải nghiệm của CBGV, SV Khoa Tiếng Italia </p>
         </div>
@@ -337,11 +377,12 @@
                     mới bắt đầu nhen nhóm ý tưởng
                 </p>
             </div>
-            <div class="new-page1 three">
-                <i class="fas fa-long-arrow-alt-left fa-news-left "></i>
-                <i class="fas fa-long-arrow-alt-right fa-news-right"></i>
-            </div>
 
+
+        </div>
+        <div class="new-page1 three">
+            <i class="fas fa-long-arrow-alt-left fa-news-left "></i>
+            <i class="fas fa-long-arrow-alt-right fa-news-right"></i>
         </div>
     </div>
 <!--    image-->
@@ -437,5 +478,16 @@
           <p>Powered by I&E Corp.</p>
       </div>
   </div>
+<script>
+    function openMenu() {
+        let menu = document.getElementsByClassName("list-mobile")[0];
+
+        if (menu.style.display === "none") {
+            menu.style.display = "flex";
+        } else {
+            menu.style.display = "none";
+        }
+    }
+</script>
 </body>
 </html>

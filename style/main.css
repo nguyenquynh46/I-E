@@ -1,14 +1,18 @@
 .card {
     display: flex;
-    margin: 0 100px ;
+    margin: 0 100px;
     flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 .card-item-bottom, .card-item-top{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     width: 20%;
     height: 300px ;
     background-color: #ffffff;
-    margin-left: 50px ;
     border-radius: 5px 50px;
     box-shadow: -1px 4px 8px -4px #000000;
     cursor: pointer;
@@ -30,7 +34,6 @@
     border-radius: 50%;
     background-color: #fff;
     box-shadow: -1px 4px 8px -4px #000000;
-    margin: 41px 21px 30px 83px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,6 +48,7 @@
     font-size: 40px;
     font-weight: 1000;
     color: green;
+    margin-top: 20px;
 }
 .card h3{
     font-size: 20px;
@@ -52,10 +56,11 @@
     margin-top: 25px;
 }
 .event-main{
-    margin: 150px 150px  100px;
+    margin-top: 100px;
+    width: 100%;
 }
 .new-event{
-    width: 100%;
+    width: 93%;
     text-align: right;
     margin-bottom: 30px;
 }
@@ -70,7 +75,8 @@
     /*font-weight: bold;*/
 }
 .event-content {
-    width: 100%;
+    margin-left: 6%;
+    width: 88%;
     height: 350px;
     border: 1px solid #ffffff;
     display: flex;
@@ -81,6 +87,7 @@
     width: 50%;
     height: 100%;
 }
+
 .event-content-image{
     overflow: hidden;
     border-radius:5px 5px 5px 80px ;
@@ -98,6 +105,12 @@
 .even-news-content h3,p,.time{
     margin: 40px 30px ;
 }
+.even-news-content .time-icon{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
 .even-news-content h3{
     font-weight: 700;
     font-size: 20px;
@@ -113,24 +126,32 @@
     color: green;
 }
 .new-page1{
-    margin: 30px 0 70px;
+    width: 93%;
    text-align: end;
+    margin: 20px 0 50px 0;
 
 }
+.new-page1.two {
+    width: 96%;
+    margin-top: -50px;
+    text-align: center;
+}
 .education-header h1{
+    margin-left: 6%;
     font-size: 40px;
     font-weight: 750;
 }
 .education-header p{
+    margin-left: 6%;
     font-size:large;
     margin-top: 25px;
-    margin-left: 0;
+
 }
 .education-main{
     display: flex;
     height: 250px;
-
-
+    margin-left: 6%;
+    width: 88%;
 }
 .education-main-content,.education-main-image{
     width: 50%;
@@ -200,13 +221,24 @@
     color: #fff;
     margin: 20px 0 0 -100px;
 }
+.research-detail{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    justify-content: space-around;
+
+}
+/*.research-detail-one.one{*/
+/*    margin-bottom: 50px;*/
+/*    */
+/*}*/
 .research-detail-one{
     width: 30%;
     height: 420px;
     background-color: #FFFFFF;
-    position: absolute;
-    top: 274px;
-    left: 262px;
+    /*position: absolute;*/
+    /*top: 274px;*/
+    /*left: 262px;*/
     border-radius: 5px 50px;
     text-align: center;
 }
@@ -234,13 +266,10 @@
     font-size: 19px;
     border-bottom: 2px solid red;
 }
-.research-detail-one.two {
-    top: 369px;
-    left: 819px;
-}
+
 .cooperate {
     width: 100%;
-    height: 700px;
+    height: 650px;
     display: flex;
     margin-top: 100px;
 }
@@ -249,8 +278,12 @@
     height: 100%;
     position: relative;
 }
+.cooperate-left{
+    height: 610px;
+}
 .cooperate-left-title{
     margin: 0 0 0 100px;
+    text-align: start;
 }
 .cooperate-left-title h1 {
     font-size: 40px;
@@ -299,16 +332,22 @@
 }
 .cooperate-text {
     position: absolute;
-    bottom:100px;
+    bottom:66px;
 }
 .cooperate-text h3{
     font-size: 25px;
-    margin: 0 0 -10px 40px;
+    margin: 0 0 -10px 30px;
 }
 .cooperate-text p{
     font-size: large;
     line-height: 1.6;
-    margin-right: 150px;
+    margin-right: 40px;
+}
+.cooperate-text .time-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+
 }
 .time span{
     position: absolute;
@@ -316,20 +355,22 @@
 }
 .new-page1.three{
     position: absolute;
-    right: 180px;
+    top: 717px;
+    right: 24px;
 }
 .time-icon i strong{
     margin-left: 10px;
 }
 
-
+.new-event.experience{
+    width: 100%;
+}
 .experience-image{
-    margin: 50px 150px;
-    height: 1800px;
+    margin: 0 150px;
 }
 .experience-main{
     width: 100%;
-    height: 500px;
+    height: 600px;
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -344,8 +385,8 @@
     position: relative;
 }
 .image-container {
-    width: 38%;
-    height: 26%;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     position: absolute;
     overflow: hidden;
@@ -360,7 +401,8 @@
 
 }
 .experience-text{
-    padding: 120px 5px;
+    position: absolute;
+    top: 60px;
 }
 .experience-text h2{
     padding: 0 30px;
@@ -369,7 +411,7 @@
     line-height: 1.4;
 }
 .experience-text p{
-    margin: 40px 30px;
+    margin: 25px 30px;
     font-size: large;
     line-height: 1.6;
 }
@@ -403,7 +445,7 @@
 
 }
 .image-card .image-2{
-    width: 25%;
+    width: 22%;
     height: 300px;
     overflow: hidden;
     border-radius: 5px 40px;
@@ -432,11 +474,14 @@
 
 }
 .image-card .image-4{
-    width: 28%;
+    width: 27%;
     height: 300px;
     overflow: hidden;
     border-radius: 5px 40px;
-    margin-right: 20px;
+    margin-right: 18px;
+}
+.even-news-content h3{
+    line-height: 1.4;
 }
 .image-card .image-4 img{
     margin-top: 20px;
@@ -447,7 +492,7 @@
 
 }
 .image-card .image-5{
-    width: 23%;
+    width: 22%;
     height: 300px;
     overflow: hidden;
     border-radius: 5px 40px;
@@ -469,7 +514,7 @@
 .footer{
     margin-top: 10px;
     width: 100%;
-    height: 900px;
+    height: 850px;
     position: relative;
 
 }
@@ -521,20 +566,25 @@
     fill: #FFFFFF;
 }
 .footer-content{
-    text-align: center;
-    align-items: center;
-    padding: 300px 500px;
+    width: 100%;
     color: black;
     position: absolute;
 }
+.footer-address{
+    margin-left: 50px;
+}
 .footer-title{
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     display: flex;
     color: #ffffff;
     z-index: 1;
     font-size: 25px;
     font-weight: 750;
-    width: max-content;
-    /*margin: 20px;*/
 }
 .footer-logo{
     width: 100px;
@@ -559,16 +609,20 @@
 .footer-address{
     width: 50%;
     height: 100%;
+    text-align: start;
 }
 .footer-contact p{
-    margin: 10px 0 20px 150px;
+    margin: 10px 70px;
     font-size:large;
 }
 .footer-bottom{
-    margin: 15px 500px;
+    width: 100%;
     position: absolute;
     bottom: 0;
     text-align: center;
+}
+.footer-action-one {
+    text-align: start;
 }
 .footer-bottom p{
     margin: 20px 10px;

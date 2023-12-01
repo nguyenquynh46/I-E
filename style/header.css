@@ -3,7 +3,9 @@
     margin: 0;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
-    font-size: 62.5%;
+}
+.menu-mobile,.input,.list-mobile{
+    display: none;
 }
 .header {
      width: 100%;
@@ -191,7 +193,8 @@
 .header-title {
     position: absolute;
     top: 250px;
-    left: 25%;
+    width: 100%;
+    text-align: center;
     color: #ffffff;
     font-size: 25px;
     font-weight: lighter;
