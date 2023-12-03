@@ -3,64 +3,65 @@
 /*        display: none;*/
 /*    }*/
 /*}*/
-@media (max-width: 1294px){
-    .nav {
-        flex-direction: column; /* CSS rules for .header within the specified screen width range */
-    }
-}
-@media (min-width: 780px) and (max-width: 1190px) {
-    .header-content .menu{
-        margin: 0 20px;
-    }
-    .header-title h1{
-        font-size: 43px;
-    }
-    .card-item-bottom,.card-item-top{
-        width: 43%;
-    }
-    .even-news-content h3{
-        line-height: 1.4;
-        margin: 8px 30px;
-    }
-    .even-news-content p,.even-news-content .time{
-        margin: -8px  30px  ;
-        font-size: 16px
-    }
-    .even-news-content .time{
-        margin: 28px 30px;
-    }
-    .education-main-content p{
-        font-size: 16px
-    }
-    .experience-image{
-        margin:50px 50px ;
-    }
-    .image-library{
-        margin-top: 0;
+/*@media (max-width: 1294px){*/
+/*    .nav {*/
+/*        flex-direction: column; !* CSS rules for .header within the specified screen width range *!*/
+/*    }*/
+/*}*/
+/*@media (min-width: 780px) and (max-width: 1190px) {*/
+/*    .header-content .menu{*/
+/*        margin: 0 20px;*/
+/*    }*/
+/*    .header-title h1{*/
+/*        font-size: 43px;*/
+/*    }*/
+/*    .card-item-bottom,.card-item-top{*/
+/*        width: 43%;*/
+/*    }*/
+/*    .even-news-content h3{*/
+/*        line-height: 1.4;*/
+/*        margin: 8px 30px;*/
+/*    }*/
+/*    .even-news-content p,.even-news-content .time{*/
+/*        margin: -8px  30px  ;*/
+/*        font-size: 16px*/
+/*    }*/
+/*    .even-news-content .time{*/
+/*        margin: 28px 30px;*/
+/*    }*/
+/*    .education-main-content p{*/
+/*        font-size: 16px*/
+/*    }*/
+/*    .experience-image{*/
+/*        margin:50px 50px ;*/
+/*    }*/
+/*    .image-library{*/
+/*        margin-top: 0;*/
 
-    }
-    .experience-main{
-        flex-direction: column;
-        height: 1200px;
-    }
-    .experience-detail.one{
-        width: 100%;
-        max-height: max-content;
-    }
-    .new-page1.three{
-        position: static;
-    }
-    .experience-text .time-icon{
-        margin-top: -30px;
-    }
-    .footer-address{
-        margin-left: 50px;
-    }
-    .footer-contact p {
-        margin: 10px 10px;
-    }
-}
-@media only screen and (max-width: 780px) {
+/*    }*/
+/*    .experience-main{*/
+/*        flex-direction: column;*/
+/*        height: 1200px;*/
+/*    }*/
+/*    .experience-detail.one{*/
+/*        width: 100%;*/
+/*        max-height: max-content;*/
+/*    }*/
+/*    .new-page1.three{*/
+/*        position: static;*/
+/*    }*/
+/*    .experience-text .time-icon{*/
+/*        margin-top: -30px;*/
+/*    }*/
+/*    .footer-address{*/
+/*        margin-left: 50px;*/
+/*    }*/
+/*    .footer-contact p {*/
+/*        margin: 10px 10px;*/
+/*    }*/
+/*}*/
+@media only screen and (max-width: 800px) {
+
     .menu-mobile,.input,.list-mobile{
         display: block;
     }
@@ -75,7 +76,7 @@
     .menu-mobile{
         position: absolute;
         top:120px;
-        padding-left: 40px;
+        left: 40px;
         font-size: xx-large;
         color: #fff;
     }
@@ -290,7 +291,7 @@
     }
     .experience-text p{
         margin: 10px 0;
-        padding: 0 30px ;
+        /*padding: 0 30px ;*/
         text-align: start;
     }
     .image-library{
@@ -356,6 +357,63 @@
     }
     .footer-bottom{
         font-size: 15px;
+    }
+}
+@media (max-width: 1294px){
+    .nav {
+        flex-direction: column; /* CSS rules for .header within the specified screen width range */
+    }
+}
+@media (min-width: 800px) and (max-width: 1190px) {
+    .header-content {
+        margin: 0 20px;
+    }
+    .header-title h1{
+        font-size: 43px;
+    }
+    .card-item-bottom,.card-item-top{
+        width: 43%;
+    }
+    .even-news-content h3{
+        line-height: 1.4;
+        margin: 8px 30px;
+    }
+    .even-news-content p,.even-news-content .time{
+        margin: -8px  30px  ;
+        font-size: 16px
+    }
+    .even-news-content .time{
+        margin: 28px 30px;
+    }
+    .education-main-content p{
+        font-size: 16px
+    }
+    .experience-image{
+        margin:50px 50px ;
+    }
+    .image-library{
+        margin-top: 0;
+
+    }
+    .experience-main{
+        flex-direction: column;
+        height: 1200px;
+    }
+    .experience-detail.one{
+        width: 100%;
+        max-height: max-content;
+    }
+    .new-page1.three{
+        position: static;
+    }
+    .experience-text .time-icon{
+        margin-top: -30px;
+    }
+    .footer-address{
+        margin-left: 50px;
+    }
+    .footer-contact p {
+        margin: 10px 10px;
     }
 }
 
