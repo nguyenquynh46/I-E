@@ -25,9 +25,9 @@
         left: 85px;
     }
     .input {
-        width: 76%; /* Đặt độ rộng của ô input */
+        width: 70%; /* Đặt độ rộng của ô input */
         margin-bottom: 10px; /* Đặt khoảng cách dưới của ô input */
-    /*margin-right: 20px;*/
+    margin-right: 20px;
     }
 
     .input input[type="text"] {
@@ -90,7 +90,8 @@
         text-align: center;
     }
     .new-event p{
-        font-size: 16px;
+        margin: 0 10px;
+        font-size: 18px;
     }
     .event-content {
         flex-direction: column;
@@ -114,7 +115,7 @@
         text-align:center;
     }
     .education-header p{
-        font-size: 16px;
+        font-size: 18px;
     }
     .education-main{
         flex-direction: column;
@@ -138,11 +139,11 @@
         top: 255px;
     }
     .research-head h1{
-        font-size: 35px
+        font-size: 30px
     }
     .research-head p{
         text-align: center;
-        margin: 0;
+        margin: 10px 30px;
     }
     .research{
         height: 1300px;
@@ -184,14 +185,14 @@
         position: relative;
     }
     .cooperate-left-title p{
-        font-size: 16px;
+        font-size: 18px;
         margin-bottom: 30px;
     }
     .cooperate-img{
         height: 550px;
     }
     .cooperate-text{
-        bottom:-13px
+        top:-100px
     }
     .cooperate-text h3{
         text-align: center;
@@ -216,6 +217,9 @@
         width: 100%;
         height: 30%;
     }
+    .new-page1.two{
+        margin-top: 30px;
+    }
     .new-page1.three{
         position: static;
     }
@@ -230,7 +234,7 @@
     }
     .experience-text p{
         margin: 10px 0;
-        /*padding: 0 30px ;*/
+        padding: 0 30px ;
         text-align: start;
     }
     .image-library{
@@ -342,6 +346,8 @@
         width: 100%;
         max-height: max-content;
     }
+
+
     .new-page1.three{
         position: static;
     }
