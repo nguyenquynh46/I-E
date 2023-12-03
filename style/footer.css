@@ -1,0 +1,117 @@
+.footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 850px;
+    position: relative;
+
+}
+.footer-one,.footer-two,.footer-three{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to  right, rgb(15, 150, 76) 40%, rgba(200, 255, 220, 1) 100% );
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+}
+.custom-shape-divider-top-1701208448 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1701208448 svg {
+    position: relative;
+    display: block;
+    width: calc(124% + 1.3px);
+    height: 342px;
+}
+
+.custom-shape-divider-top-1701208448 .shape-fill {
+    fill: #FFFFFF;
+}
+.custom-shape-divider-top-1701208779 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1701208779 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 163px;
+}
+
+.custom-shape-divider-top-1701208779 .shape-fill {
+    fill: #FFFFFF;
+}
+.footer-content{
+    width: 100%;
+    color: black;
+    position: absolute;
+}
+.footer-address{
+    margin-left: 50px;
+}
+.footer-title{
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: #ffffff;
+    z-index: 1;
+    font-size: 25px;
+    font-weight: 750;
+}
+.footer-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 30px;
+}
+.footer-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer-contact{
+    display: flex;
+    margin-top: 500px;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+
+}
+.footer-address{
+    width: 50%;
+    height: 100%;
+    text-align: start;
+}
+.footer-contact p{
+    margin: 10px 70px;
+    font-size:large;
+}
+.footer-bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+.footer-action-one {
+    text-align: start;
+}
+.footer-bottom p{
+    margin: 20px 10px;
+    color: #ffff;
+}
