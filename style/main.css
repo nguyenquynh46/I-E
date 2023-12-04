@@ -250,17 +250,10 @@
     justify-content: space-around;
 
 }
-/*.research-detail-one.one{*/
-/*    margin-bottom: 50px;*/
-/*    */
-/*}*/
 .research-detail-one{
     width: 30%;
     height: 420px;
     background-color: #FFFFFF;
-    /*position: absolute;*/
-    /*top: 274px;*/
-    /*left: 262px;*/
     border-radius: 5px 50px;
     text-align: center;
 }
@@ -424,7 +417,7 @@
 }
 .experience-text{
     position: absolute;
-    top: 60px;
+    top: 90px;
 }
 .experience-text h2{
     padding: 0 30px;
