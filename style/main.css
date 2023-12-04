@@ -399,6 +399,9 @@
     box-shadow: -1px 4px 8px -4px #000000;
     position: relative;
 }
+.cooperate-img{
+    height: 600px;
+}
 .image-container {
     width: 120px;
     height: 120px;
